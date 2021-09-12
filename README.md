@@ -19,6 +19,10 @@ To run the scripts or the code if need be.
 GitHub
 For hosting the work provided ie. the code for the application.
 
+### Bugs
+Could not implement the hover effect on portfolio section
+Could not implement the mail chimp API for email tracking.
+
 ##  BDD
 
 BDD(Behavior Driven Development) 
