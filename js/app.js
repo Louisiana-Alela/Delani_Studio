@@ -12,17 +12,14 @@ function move(){
     });
 }
 
-function aboutUsScroll(){
+//scrolling down to about us section
+$(document).ready(function aboutUsScroll(){
     const scroll = $("#about").offset();
     $('html, body').animate({
         scrollUp:scroll.top+'px'
     }, normal);
-}
-
-$(document).ready(function(){
-    move();
     $('#mouse').click(aboutUsScroll);
-})
+});
 
 // image toggling
 $(document).ready(function(){
@@ -41,4 +38,12 @@ $(document).ready(function(){
         $('#text3').toggle();
         $('.icon3').toggle();
     })
+});
+
+//pop up message
+$(document).ready(function(){
+    document.getElementById('myForm').addEventListener('submit', popUp);
+    function popUp(){
+        alert('We have received your message. Thank you for reaching out to us.')
+    }
 });

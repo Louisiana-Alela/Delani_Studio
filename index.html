@@ -40,7 +40,9 @@
                     Our approach unifies design, development and product management to create exceptional products. <br>
                     We start each project by understanding your business goals, the user's needs and the product
                     requirements. <br>
-                    Then we help translate them into effective and elegant solutions.</em></p>
+                    Then we help translate them into effective and elegant solutions.
+                </em>
+            </p>
         </div>
 
         <div id="services" class="container flex-fill text-white text-center d-flex flex-column justify-content-center">
@@ -48,7 +50,8 @@
             <p><em>Before we sign a contract or write a line of code, our team will spend the necessary time needed to
                     understand your product vision. <br>
                     The outcome of this scoping session is proposal or high-level statement of work <br>
-                    based on your requirements,we can provide a complete offering or just pieces you need.</em></p>
+                    based on your requirements,we can provide a complete offering or just pieces you need.
+                </em></p>
         </div>
     </section>
 
@@ -77,13 +80,14 @@
             <div class="col-md-4 p-4 text-center">
                 <div class="icon20" id="text2">
                     <p><strong>DEVELOPMENT</strong></p>
-                    <p class="text-center">All engineers are fluent in the latest enterprise, mobile and web development technologies. <br>
+                    <p class="text-center">All engineers are fluent in the latest enterprise, mobile and web development
+                        technologies. <br>
                         They collaborate with your team to write, and improve code on a daily basis, using proven
                         practices
                         such as test-driven development and pair programming.
                     </p>
                 </div>
-                <div class="icon2"> 
+                <div class="icon2">
                     <img src="images/services_icons/dev_icon.png" alt="Design icon">
                 </div>
                 <div>DEVELOPMENT</div>
@@ -91,7 +95,8 @@
             <div class="col-md-4 p-4 text-center">
                 <div class="icon30" id="text3">
                     <p><strong>PRODUCT MANAGEMENT</strong></p>
-                    <p class="text-center">Planning and development is iterative. Because we are constantly coding and testing,
+                    <p class="text-center">Planning and development is iterative. Because we are constantly coding and
+                        testing,
                         the products we build are always ready to go live. <br>
                         This iterative process allows for changes as business requirements evolve.
                     </p>
@@ -104,44 +109,64 @@
         </div>
         </div>
 
-        <div id="portfolios" class="flex-fill text-center d-flex flex-column justify-content-center"">
+        <div id="portfolios" class="flex-fill text-center d-flex flex-column justify-content-center">
             <div class=" text-center">
-            <h2><strong>PORTFOLIO</strong></h2>
-        </div>
-        <div class="row">
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work1.jpg" alt="">
+                <h2><strong>PORTFOLIO</strong></h2>
             </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work2.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work3.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work4.jpg" alt="">
-            </div>
-        </div>
+            <div class="portfo">
+                <div class="row">
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work1.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work2.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work3.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work4.jpg" alt="">
+                    </div>
+                </div>
 
-        <div class="row ">
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work5.jpg" alt="">
+                <div class="row ">
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work5.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work6.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work7.jpg" alt="">
+                    </div>
+                    <div class="col-md-3 p-2">
+                        <img src="images/portfolio/work8.jpg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work6.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work7.jpg" alt="">
-            </div>
-            <div class="col-md-3 p-2">
-                <img src="images/portfolio/work8.jpg" alt="">
-            </div>
-        </div>
-        </div>
     </section>
 
-    <section id="contact">
-
+    <section id="contactUs" class="container text-center text-white flex-fill d-flex flex-column">
+        <div class="contact">
+            <h2 class="text-center"><strong>CONTACT US</strong></h2>
+            <div class="form">
+                <form action="#" method="post" onsubmit="evt.preventDefault()" id="myForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control text-white" placeholder="Name..." required id="myName">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email..." required id="myEmail">
+                        </div>
+                    </div> <br>
+                    <textarea class="form-control" placeholder="Your message here..." id="myText" cols="30" rows="10"></textarea> <br>
+                    <button class="btn btn-success mySubmit" onsubmit="popUp()"
+                        onsubmit="evt.preventDefault()" type="submit" id="req" data-target="#myModal">
+                        SUBMIT
+                    </button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <script src="js/app.js"></script>
