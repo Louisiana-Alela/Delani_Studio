@@ -3,35 +3,20 @@ body{
     font-family: 'Merienda', cursive;
 }
 
+section{
+    height: 100vh;
+}
+
 #welcome{
     background-image: url("/images/backgrounds/h_img.jpg");     
     background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    text-align: center;
-    color: white;
-    padding-top: 10%;
-    padding-bottom: 5%;
-}
-
-#about{
-    text-align: center;
+    background-size: cover;
 }
 
 #services{
     background-image: url("/images/backgrounds/s_image.jpg");     
     background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    text-align: center;
-    color: white;
-    padding-top: 10%;
-    padding-bottom: 5%;
-}
-
-#whatWeDo{
-    text-align: center;
-    padding: 5%;
+    background-size: cover;
 }
 
 #contactUs{
