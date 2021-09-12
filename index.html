@@ -146,28 +146,53 @@
             </div>
     </section>
 
-    <section id="contactUs" class="container text-center text-white flex-fill d-flex flex-column">
-        <div class="contact">
+    <section id="contactUs" class="container text-center text-white flex-fill d-flex flex-column img-fluid">
+        <div class="contact m-5 pt-5">
             <h2 class="text-center"><strong>CONTACT US</strong></h2>
             <div class="form">
                 <form action="#" method="post" onsubmit="evt.preventDefault()" id="myForm">
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="text" class="form-control text-white" placeholder="Name..." required id="myName">
+                            <input type="text" class="form-control text-white" placeholder="Name..." required
+                                id="myName">
                         </div>
                         <div class="col-md-6">
                             <input type="email" class="form-control" placeholder="Email..." required id="myEmail">
                         </div>
                     </div> <br>
-                    <textarea class="form-control" placeholder="Your message here..." id="myText" cols="30" rows="10"></textarea> <br>
-                    <button class="btn btn-success mySubmit" onsubmit="popUp()"
-                        onsubmit="evt.preventDefault()" type="submit" id="req" data-target="#myModal">
+                    <textarea class="form-control" placeholder="Your message here..." id="myText" cols="30"
+                        rows="10"></textarea> <br>
+                    <button class="btn btn-success mySubmit" onsubmit="popUp()" onsubmit="evt.preventDefault()"
+                        type="submit" id="req" data-target="#theModal">
                         SUBMIT
                     </button>
                 </form>
             </div>
         </div>
-    </section>
+    </section> <br><br>
+
+    <div class="footer">
+        <div class="container">
+            <ul class="socials text-center">
+                <a href="#"><img src="./images/social_icons/twitter.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/dribble.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/facebook.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/g_plus.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/skype.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/stumble_upon.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/behance.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/pinterest.png" alt=""></a>
+                <a href="#"><img src="./images/social_icons/flickr.png" alt=""></a>
+            </ul>
+        </div>
+
+        <div class="cp">
+            <div class="ccontainer text-center">
+                <h5>DELANI STUDIO</h5>
+                <p>2021</p>
+            </div>
+        </div>
+    </div>
 
     <script src="js/app.js"></script>
 </body>
