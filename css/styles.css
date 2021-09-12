@@ -8,13 +8,13 @@ section{
 }
 
 #welcome{
-    background-image: url("/images/backgrounds/h_img.jpg");     
+    background-image: url("../images/backgrounds/h_img.jpg");     
     background-position: center; 
     background-size: cover;
 }
 
 #services{
-    background-image: url("/images/backgrounds/s_image.jpg");     
+    background-image: url("../images/backgrounds/s_image.jpg");     
     background-position: center; 
     background-size: cover;
 }
@@ -24,7 +24,7 @@ section{
 }
 
 #contactUs{
-    background-image: url("/images/backgrounds/s_image.jpg");     
+    background-image: url("Delani_Studio/images/backgrounds/s_image.jpg");     
     background-position: center; 
     background-size: cover; 
 }
