@@ -23,6 +23,11 @@ section{
     width: 100%;
 }
 
+.whatWeDo-icon{
+    cursor: pointer;
+    opacity: 0;
+}
+
 #contactUs{
     background-image: url("Delani_Studio/images/backgrounds/s_image.jpg");     
     background-position: center; 
